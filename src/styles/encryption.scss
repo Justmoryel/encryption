@@ -1,0 +1,145 @@
+.app-container{
+    display: grid;
+    grid-template: 1fr/ 1fr 20rem 1fr;
+    gap: 2rem;
+
+    .enc{
+   
+
+        &.header{
+            font-size: 1.6rem;
+            padding-left: 20px;
+            padding-right: 20px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            min-width: 40rem;
+            .item-1{
+
+                .span-1{
+                    color: rgb(19, 104, 19);
+                    font-weight:bolder;
+                }
+                .span-2{
+                    color: rgb(151, 0, 0);
+                    text-decoration: line-through;
+                }
+            }
+            .item-2{
+             padding: 0 90px 0 90px;
+             span{
+                color:rgb(218, 1, 1);
+                text-decoration: line-through;
+             }
+            }
+            
+            .item-3{
+                padding-left: 10px;
+                height: 3rem;
+                border: 0.4px solid rgb(162, 13, 13);
+               
+            }
+        
+            .item-4{
+                min-width: 25rem;
+                min-height: 10rem;
+                width: 45rem;
+                height: 40rem;
+                max-height: 40rem;
+                max-width: 50rem;
+                font-size: 1.5rem;
+                padding: 1rem 1rem 1rem 1rem;
+                text-indent: 5rem;
+
+            }
+        }
+
+        &.btn{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+
+            button{
+                height: 120px;
+                width: 120px;
+                border-radius: 100%;
+                font-size: 2rem;
+                border: none;
+
+                &.btn-1{
+                    background-color: rgb(151, 0, 0);
+                    color: white;
+                }
+                &.btn-1:hover{
+                    background-color: rgba(151, 0, 0, 0.338);
+                    color:black;
+                    cursor: pointer;
+                    border: 1px solid rgb(151, 0, 0); 
+                }
+                &.btn-2{
+                    background-color: rgb(19, 104, 19);;
+                    color: white;
+                }
+                &.btn-2:hover{
+                    background-color: rgba(19, 104, 19, 0.436);
+                    color:black;
+                    cursor: pointer;
+                    border: 1px solid rgb(19, 104, 19); 
+                }
+               
+            }
+            
+        }
+        &.display{
+           
+            padding-left: 20px;
+            padding-right: 20px;
+            display: flex;
+            flex-direction:column;
+            justify-content: center;
+            gap: 1rem;
+            align-items: flex-start;
+            .display-1{
+                border: 2px dotted orange;
+                min-height: 45rem;
+                min-width: 50rem ;
+                padding: 2rem 3rem 3rem 3rem;
+                font-size: 1.4rem;
+            }
+            .display-2{
+                display: flex;
+                width: 100%;
+                flex-direction: row-reverse;
+                text-align: center;
+                font-size: 1.2rem;
+                button{
+                    all:unset;
+                    background-color: wheat;
+                    height: 2rem;
+                    width: 7rem;
+                    
+                }
+                button:hover{
+                    all:unset;
+                    background-color: wheat;
+                    cursor: pointer;
+                    height: 2rem;
+                    width: 7rem;
+                   
+                   
+                    
+                }
+            }
+            
+        }
+
+        
+    }
+
+
+
+
+}
