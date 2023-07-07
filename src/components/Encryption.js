@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import Buttonscircle from "./Buttonscircle";
+import Display from "./Display";
 
 const Encryption = () => {
   const [text, setText] = useState("");
@@ -122,22 +124,17 @@ const Encryption = () => {
           onClick={handleOnclickText}
         ></textarea>
       </div>
-      <div className="enc btn">
-        <button className="btn-1" onClick={handleOnclickEncrypt}>
-          Encrypt
-        </button>
-        <button className="btn-2" onClick={handleOnclickDecrypt}>
-          Decrypt
-        </button>
-      </div>
-      <div className="enc display">
-        <div onClick={handleOnclickDisplay} className="display-1">
-          <p>{display}</p>
-        </div>
-        <div className="display-2">
-          <button onClick={handleCopyText}>{copyButtonText}</button>
-        </div>
-      </div>
+
+      <Buttonscircle
+        encryption={handleOnclickEncrypt}
+        decryption={handleOnclickDecrypt}
+      />
+      <Display
+        btnDisplay={handleOnclickDisplay}
+        displayText={display}
+        copyText={handleCopyText}
+        btnCopy={copyButtonText}
+      />
     </div>
   );
 };
