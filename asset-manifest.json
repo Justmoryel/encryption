@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/encryption/static/css/main.a8d39413.css",
-    "main.js": "/encryption/static/js/main.809de5da.js",
+    "main.js": "/encryption/static/js/main.da6b09a7.js",
     "index.html": "/encryption/index.html",
     "main.a8d39413.css.map": "/encryption/static/css/main.a8d39413.css.map",
-    "main.809de5da.js.map": "/encryption/static/js/main.809de5da.js.map"
+    "main.da6b09a7.js.map": "/encryption/static/js/main.da6b09a7.js.map"
   },
   "entrypoints": [
     "static/css/main.a8d39413.css",
-    "static/js/main.809de5da.js"
+    "static/js/main.da6b09a7.js"
   ]
 }
